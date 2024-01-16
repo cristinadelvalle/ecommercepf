@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Cart } from "./components/Cart/Cart";
 import { CartProvider } from "./context/CartContext";
+import { Checkout } from "./components/Checckout/Checkout";
 
 
 function App() {

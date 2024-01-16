@@ -11,8 +11,8 @@ export const Item = ({producto})=>{
         <p>$ {producto.precio} </p>
         <p>{producto.descripcion} </p>
         <p>Categoria:{producto.categoria} </p>
-        <Link to={`/item/ ${producto.id}`} >Ver mas...</Link>
-         </div>
-    </div>
+        <Link className="ver-mas" to={`/item/${producto.id}`}>Ver más</Link>
+       </div>
+       </div>
     )
 }

@@ -8,7 +8,7 @@ export const ItemListContainer = ()=>{
  
 
      const [productos, setProductos] = useState([])
-     const [titulo, setTitulo] = useState("Productos")
+     const [titulo, setTitulo] = useState("productos")
      const categoria = useParams().categoria
 
      useEffect(()=> {   
