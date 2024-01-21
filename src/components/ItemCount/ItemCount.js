@@ -1,15 +1,15 @@
-
+import "../../components/ItemCount/ItemCount.css"
 
 export const ItemCount = ({cantidad, handleAgregar, handleRestar, handleSumar})=>{
 
     return(
-        <div>
+        <div className="cardItem">
             <div>
-            <button className="restar" onClick={handleRestar}>-</button>
+            <button className="btn-restar" onClick={handleRestar}>-</button>
             <p>{cantidad} </p> 
-            <button onClick={handleSumar}>+</button>
+            <button className="btn-sumar" onClick={handleSumar}>+</button>
             </div>
-            <button className="sumar" onClick={handleAgregar}>Agregar al carrito</button>
+            <button className="btn-agregarCarrito" onClick={handleAgregar}>Agregar al carrito</button>
 
         </div>
     )

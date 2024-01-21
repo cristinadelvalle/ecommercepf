@@ -6,7 +6,7 @@ export const CartWidget =()=>{
     const {productosEnElCarrito} =useContext(CartContext)
     return(
         <div>
-        <Link to="/carrito">Carrito <span>{productosEnElCarrito()} </span>
+        <Link to="/carrito"><span>Carrito{productosEnElCarrito()}</span>
        </Link>   
         </div>
     )

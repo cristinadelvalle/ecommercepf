@@ -1,0 +1,11 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+ .contenedorItems{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid .5px  rgba(13, 13, 46, 0.071);
+    border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+.btn-sumar, .btn-restar{
+    background-color: rgb(16, 20, 110);
+    color: white;
+
+}
+.btn-agregarCarrito{
+    background-color: rgb(179, 5, 5);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: solid .5px rgba(0, 0, 0, 0.234);
+    padding: 1em;
+}
+
+.btn-finalizarCompra{
+    background-color: rgb(16, 20, 110) ;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: solid .5px rgba(0, 0, 0, 0.234);
+    padding: 1em;
+    font-size: small;
+}
+.checkout{
+    padding: 10px;
+}
+.precio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}

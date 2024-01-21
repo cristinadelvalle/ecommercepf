@@ -1,0 +1,20 @@
+.contenedorItems{
+     display: flex;
+     flex-direction: column;  
+
+}
+.imagenItems{
+        width: 250px;
+        display: flex;
+        padding-left: 100px;
+        align-items: center;
+  }
+
+.ver-mas{
+    background-color: rgb(13, 13, 46);
+    color: white;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600px;
+    padding: 10px 10px 10px 10px ;
+}

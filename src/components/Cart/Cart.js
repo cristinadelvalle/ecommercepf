@@ -27,10 +27,10 @@ export const Cart =  ()=>{
             }
             {
                 carrito.length > 0 ?
-               <div>
+               <div className="checkout">
                  <h1>Total: ${precioTotal()}</h1>
-                 <button onClick={handleLimpiarCarrito}>Limpiar carrito</button>
-                 <Link to="/checkout"> Finalizar compra</Link>
+                 <button className="btn-agregarCarrito" onClick={handleLimpiarCarrito}>Limpiar carrito</button>
+                 <Link className="btn-finalizarCompra" to="/checkout"> Finalizar compra</Link>
                  </div> : <h2>Carrito vacio</h2>
             }
 

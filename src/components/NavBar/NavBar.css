@@ -1,0 +1,23 @@
+.navBar {
+    background-color: rgb(252, 252, 252);
+    display: flex;
+}
+ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+li{
+    list-style: none;  
+    padding-left: 2em; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 700;
+   }
